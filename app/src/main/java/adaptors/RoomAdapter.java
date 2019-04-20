@@ -41,6 +41,7 @@ public class RoomAdapter extends ArrayAdapter<Rooms> {
 
 
         Rooms roomData = mList.get(position);
+        
 
         TextView paymentTxt = row.findViewById(R.id.paymentTxt);
         TextView locationAndFloorTxt = row.findViewById(R.id.locationAndFloorTxt);
